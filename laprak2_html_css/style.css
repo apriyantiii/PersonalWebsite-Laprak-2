@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+}
+.media-icons{
+    padding: 5px 0;
+    background-color: rgb(233, 208, 177);
+    color: black;
+}
+.medsos{
+    width: 80%;
+    margin: 0% auto;
+    letter-spacing: 5px;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(255, 244, 233);
+}
+header{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 10px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .Blog{
+    position: relative;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding: 30px 120px;
+}
+header .navigation a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: background;
+}
+header .navigation a:not(:last-child){
+    margin-right: 10px;
+}
+header .navigation a:hover{
+    background-color: rgb(233, 208, 177);
+}
+.content{
+    max-width: 650px;
+    margin: 30px 300px;
+    text-align: center;
+    justify-content: center;
+}
+.banner{
+    height: 70vh;
+    background-image: url(image/image3.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner:after{
+    content:'';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+.banner h2 {
+    color: black;
+    text-decoration: none;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 1px solid;
+    border-radius: 10px;
+    transition: 0.3s;
+    transition-property: background;
+}
+.banner h2 :hover{
+    background-color: rgba(63, 63, 63, 0.5);
+}
+/* pendidikan */
+.title1 {
+    margin-top: 0;
+    color: #000;
+    text-align: center;
+    background-color: #a5875b;
+    padding: 20px;
+}
+
+.cardSchool {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardSchool :hover{
+    background-color: rgb(233, 208, 177);
+}
+.daily {
+    color: black;
+    background-color: #d8bb92;
+    margin-top: 60px;
+    margin-left: 50px;
+    min-height: 250px;
+    min-width: 230px;
+    max-width: 230px;
+    min-height: 250px;
+    border-radius: 10px;
+    background-color: rgb(204, 183, 162);
+    padding-top: 20px;
+    text-align: center;
+}
+
+.daily img {
+    width: 200px;
+
+}
+.container {
+    background-color: rgb(255, 244, 233);
+    width: 100%;
+    min-height: 80vh;
+}
+.about{
+    text-align: center;
+    padding: 20px 0;
+}
+.about h2{
+    margin-bottom: 30px;
+    margin-top: 0;
+    color: #000;
+    text-align: center;
+    background-color: #a5875b;
+    padding: 20px;
+    letter-spacing: 4px;
+}
+.about p{
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.picture {
+    background-color: rgb(255, 244, 233);
+    width: 100%;
+    min-height: 80vh;
+}
+.picture2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo img {
+    width: 200px;
+    padding-block: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+    min-height: 250px;
+    min-width: 230px;
+    max-width: 230px;
+    min-height: 250px;
+    border-radius: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+section .education{
+    padding: 10px;
+    text-align: center;
+    background-color: #a5875b;
+    padding: 20px;
+    letter-spacing: 4px;
+}
+#contact{
+    justify-content: center;
+    padding: 40px;
+}
+#contact .getin{
+    width: 350px;
+    padding: 40px;
+
+}
+#contact .getin h2{
+    color: #2c234d;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: .8;
+    margin-bottom: 16px;
+}
+#contact .getin p{
+    color: #686875;
+    line-height: 24px;
+    margin-bottom: 33px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e5e4ed;
+}
+#contact .getin h3{
+    color: #2c234d;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+#contact .getin .getin-details div{
+    display: flex;
+}
+#contact .getin .getin-details div .get{
+    font-size: 16px;
+    line-height: 22px;
+    color: #201847;
+    margin-right:20px ;
+}
+#contact .getin .getin-details div p{
+    font-size: 14px;
+    border-bottom: none;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+#contact .getin .getin-details .pro-links i{
+    margin-right: 8px;
+}
+#contact .form{
+    position: absolute;
+    justify-content: space-between;
+    margin-left: 45%;
+    padding: 40px 70px;
+    background:  rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    margin-top: 80px;
+}
+#contact .form h4{
+    font-size: 24px;
+    color: #2c234d;
+    line-height: 30px;
+    margin-bottom: 8px;
+
+}
+#contact .form p{
+    color: #686875;
+    line-height: 24px;
+    padding-bottom: 25px;
+}
+#contact .form .form-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#contact .form .form-row input{
+    width: 48%;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 3px;
+    border: none;
+    background: #fff;
+    color: #7e7c87;
+    outline: none;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+#contact .form .form-col input,
+#contact .form .form-col textarea{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 3px;
+    border: none;
+    background: #fff;
+    color: #7e7c87;
+    outline: none;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+#contact .form button{
+    font-size: .9rem;
+    padding: 13px 25px;
+    background: #2c234d;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+}
+#contact .cont{
+    text-align: center;
+    letter-spacing: 4px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}
+.schedule2 h2{
+    padding: 10px;
+    text-align: center;
+    background-color: #a5875b;
+    padding: 20px;
+    letter-spacing: 4px;
+}
+.schedule2 p{
+    text-align: center;
+    margin-top: 40px;
+}
+.tabel {
+    background-color: rgb(255, 244, 233);
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+}
+TH {
+    color : #FFFFFF;
+    background-color : #424037;
+    border-style:solid;
+    border-color :rgb(208, 209, 125) ;
+    font-size: 15pt;
+    font-family: "Fredoka", sans-serif;
+    }
+TD {
+    color : rgb(0, 0, 0);
+    background-color : #cabf8b;
+    border-width: 1px ;
+    border-style:solid;
+    border-color :rgb(189, 171, 112) ;
+    font-size: 14pt;
+    font-family: "Fredoka", sans-serif;
+}
+
+.activity h2{
+    padding: 10px;
+    text-align: center;
+    background-color: #a5875b;
+    padding: 20px;
+    letter-spacing: 4px;
+}
+.organisasi{
+    letter-spacing: 1px;
+}
+.organisasi h3{
+    border-bottom: rgb(48, 48, 48) solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: larger;
+    color: #2c234d;
+    padding: 20px;
+}
+.organisasi ul{
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    padding-left: 80px;
+    line-height: 50px;
+    background: rgba(255, 255, 255, 0.5);
+}
+.organisasi ul span{
+    justify-content: right;
+    margin-right: 0%;
+    padding: absolute;
+}
+.professional{
+    letter-spacing: 1px;
+}
+.professional h3{
+    border-bottom: rgb(48, 48, 48) solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: larger;
+    color: #2c234d;
+    padding: 20px;
+}
+.professional ul{
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    padding-left: 80px;
+    line-height: 50px;
+    background: rgba(255, 255, 255, 0.5);
+}
+.professional ul span{
+    justify-content: right;
+    margin-right: 0%;
+    padding: absolute;
+}
+.edu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 1s;
+}
+
+.sekolah {
+    color: black;
+    background-color: #d8bb92;
+    margin-top: 60px;
+    margin-left: 100px;
+    min-height: 300px;
+    min-width: 280px;
+    max-width: 300px;
+    min-height: 200px;
+    border-radius: 10px;
+    background-color: rgb(204, 183, 162);
+    padding-top: 20px;
+    text-align: center;
+}
+.edu :hover{
+    background-color: rgb(233, 208, 177);
+}
+.sekolah img {
+    width: 250px;
+    height: 100px;
+
+}
+.pendidikan {
+    background-color: rgb(255, 244, 233);
+    width: 100%;
+    min-height: 80vh;
+}
+.pendidikan p{
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: justify;
+}
